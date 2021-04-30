@@ -1,0 +1,32 @@
+{
+  "name": "cypress-mochawesome-reporter-repro",
+  "version": "0.0.0",
+  "description": "Minimal repo for a bug with cypress/the mochawesome reporter",
+  "engines": {
+    "node": ">=14.16.1",
+    "pnpm": ">=6.2.3"
+  },
+  "scripts": {
+    "test": "cypress run",
+    "test-mocha": "mocha cypress/integration/*.spec.js --reporter mochawesome --reporter-options reportDir=.report-mocha,json=true,html=false"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jayseeare/cypress-mochawesome-reporter-repro.git"
+  },
+  "keywords": [
+    "Cypress",
+    "Mochawesome"
+  ],
+  "author": "Josh Bickley-wallace <joshbickleywallace@outlook.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jayseeare/cypress-mochawesome-reporter-repro/issues"
+  },
+  "homepage": "https://github.com/jayseeare/cypress-mochawesome-reporter-repro#readme",
+  "dependencies": {
+    "cypress": "7.2.0",
+    "mocha": "8.3.2",
+    "mochawesome": "6.2.2"
+  }
+}

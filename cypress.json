@@ -1,0 +1,8 @@
+{
+  "reporter": "mochawesome",
+  "reporterOptions": {
+    "reportDir": ".report",
+    "html": false,
+    "json": true
+  }
+}

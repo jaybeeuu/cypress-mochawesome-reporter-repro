@@ -1,0 +1,4 @@
+.report
+.report-mocha
+cypress/videos
+node_modules
